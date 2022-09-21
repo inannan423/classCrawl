@@ -285,7 +285,6 @@ else:
 
 该函数的完整代码：  
 
-<details>
 
 ```python
 # 判断当前所在第几节课
@@ -333,8 +332,6 @@ def getNowClass():
 
 ```
 
-</details>
-
 ### 解析 json 为列表字典
 
 现在我们要将 json 数据按照**星期几**和**第几节课**进行解析，存为列表。由于我们的 json 每条数据的格式为：  
@@ -350,7 +347,10 @@ table = [[{'jsxm': '无', 'jsmc': '无', 'jssj': '00:00', 'kssj': '00:00', 'kkzc
               'sjbz': '0'} for i in range(1, 100)] for j in range(1, 100)]
 ```
 
-:::tip 列表推导
+---
+
+**列表推导**  
+
 这是 Python 语法中一个列表推导(List Comprehension)的例子，可以用来初始化一个列表。  
 
 ```python
@@ -368,8 +368,6 @@ arr = ['' for i in range(1000)]
 ```python
 arr = [{'name': '无', 'age': 0} for i in range(1000)]
 ```
-
-:::
 
 现在，我们可以把 `schedule` 变量中的数据按照**星期几**和**第几节课**进行解析，存为列表了。  
 
@@ -436,7 +434,14 @@ def QueryClass():
 
 ![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1663729680933.png)
 
+## 应用
+
+使用此脚本，你可以将其部署到你的服务器，推送到微信，或者使用此接口编写课表小程序。
+
+
 ## 安全提示
 
 本脚本涉及隐私（包含学号和密码）使用时请自己部署自己使用，不要泄露给他人。如果要分享脚本，请删除上述信息。
 
+#### 未经许可，不得转载
+#### 如对您有用，请给本仓库一个 STAR
