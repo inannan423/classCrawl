@@ -1,7 +1,7 @@
 
 > 本脚本仅用于交流学习，不得用于其他用途，如果因为恶意使用本脚本造成的一切后果，与本人无关。
 
-**本文原创**，原文链接：https://jetzihan.netlify.app/blog/qiangzhi  
+**本文原创**，原文链接：[https://jetzihan.netlify.app/blog/qiangzhi](https://www.jet-lab.site/blogs/qiangzhi)
 
 ## 前言
 
